@@ -2,7 +2,7 @@ const BotFactory = require('teamspeak-channel-squatter');
 const Promise = require('bluebird');
 const chance = require('chance')();
 
-const config = require('./config.json');
+const config = require('./configuration.json');
 
 const createClosestChannel = (bot, parentId, username, password, maxAttempts) => {
     let attempt = 0;
